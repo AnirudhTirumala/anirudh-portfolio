@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anirudh Tirumala - Portfolio</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px 25px;
+      background: rgba(0, 0, 0, 0.55);
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,120,215,0.7);
+    }
+
+    h1, h2 {
+      color: #00aaff;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    .contact-info {
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .contact-info span, 
+    .contact-info a, 
+    .contact-info br {
+      display: inline-block;
+      margin: 0 6px 6px 6px;
+      vertical-align: middle;
+    }
+
+    .contact-info a {
+      color: #00aaff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+      vertical-align: middle;
+      fill: #00aaff;
+      margin-right: 5px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      padding: 15px 20px;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 10px;
+    }
+
+    p, ul {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 0 0 15px 0;
+      text-align: justify;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.9rem;
+    }
+
+    #education div {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+
+    #projects div strong, #certificates li a {
+      display: inline-block;
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+      color: #00caff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    #certificates li a {
+      color: white;
+    }
+
+    #certificates li a:hover {
+      color: #00aaff;
+      text-decoration: underline;
+    }
+
+    #interpersonal, #languages {
+      list-style-type: square;
+      padding-left: 20px;
+      text-align: left;
+      margin-top: 8px;
+    }
+
+    /* Project link styled as pill-shaped button */
+    .project-link-circle {
+      display: inline-block;
+      background-color: rgba(0, 170, 255, 0.9);
+      color: white;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 50px; /* pill shape */
+      font-weight: 600;
+      box-shadow: 0 0 8px rgba(0, 170, 255, 0.6);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-link-circle:hover {
+      background-color: #008fcc;
+      box-shadow: 0 0 12px rgba(0, 140, 204, 0.9);
+      color: #e0f7ff;
+    }
+
+    @media(max-width: 600px) {
+      h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Anirudh Tirumala</h1>
+    <div class="contact-info">
+      <span>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5z"/>
+        </svg>
+        Kakinada, India
+      </span>
+      <br />
+      📧 <a href="mailto:anirudhtirumala@gmail.com">anirudhtirumala@gmail.com</a><br />
+      📞 +91 63092 79111<br />
+      <a href="https://github.com/AnirudhTirumala" target="_blank" aria-label="GitHub profile">GitHub</a>
+      &nbsp;|&nbsp;
+      <a href="https://www.linkedin.com/in/anirudh-tirumala-ab562b287/" target="_blank" aria-label="LinkedIn profile">LinkedIn</a>
+    </div>
+
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>Computer Science graduate (B.Tech, 2025) from KL University with a passion for software development and web technologies. Strong analytical thinker, team collaborator, and quick learner with hands-on experience in building web applications and managing structured data. Eager to contribute to innovative tech-driven solutions in a dynamic work environment.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div><strong>B.Tech in Computer Science & Engineering</strong><br />KL University, Vijayawada — 2025</div>
+      <div><strong>12th Standard</strong><br />Tirumala Junior College, Rajahmundry —2021</div>
+      <div><strong>10th Standard</strong><br />Boon School, Kakinada — 2019</div>
+    </section>
+
+    <section id="tech-stack">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Python, C, Java (Basic)</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS</li>
+        <li><strong>Databases:</strong> SQL</li>
+        <li><strong>Other:</strong> XML</li>
+      </ul>
+    </section>
+
+    <section id="certificates">
+      <h2>Certifications</h2>
+      <ul>
+        <li><a href="https://drive.google.com/file/d/1-UQyQUhmCfovYiTHnbcBjC-5UunrkSSV/view?usp=drive_link" target="_blank" rel="noopener noreferrer">AWS Certified Cloud Practitioner</a></li>
+        <li><a href="https://drive.google.com/file/d/10G-t3uPqb9RrHFDALtnWLg8KrcgvBUEJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Aviatrix Certified Engineer & Multicloud Network Associate</a></li>
+        <li><a href="https://drive.google.com/file/d/11UEWt9JHtKmvvl8BZaKpsfl5vlbbkv0n/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Salesforce Certified AI Associate</a></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div>
+        <strong>📚 Library Management System</strong>
+        <p>Developed a web-based system to manage library operations including book search, borrowing, returning, and user transactions. Built with HTML and CSS as the frontend, enabling an intuitive and responsive interface. Worked collaboratively in a 3-member team focusing on frontend development.</p>
+        <p>
+          <a href="https://github.com/AnirudhTirumala/Library-Management-System" target="_blank" rel="noopener noreferrer" class="project-link-circle">View Project on GitHub</a>
+        </p>
+      </div>
+      <div>
+        <strong>🌧️ Weather Web Application</strong>
+        <p>Created a weather forecasting web app integrating the OpenWeather API. Implemented features include location auto-detection via the Geolocation API and a user-friendly interface designed with HTML and CSS. Backend handled by Java Spring Boot with Thymeleaf templates. Part of a 3-member team with a frontend specialization role.</p>
+        <p>
+          <a href="https://github.com/AnirudhTirumala/Claud" target="_blank" rel="noopener noreferrer" class="project-link-circle">View Project on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="interpersonal-skills">
+      <h2>Interpersonal Skills</h2>
+      <ul id="interpersonal">
+        <li>Team collaboration</li>
+        <li>Adaptability</li>
+        <li>Self-motivated</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul id="languages">
+        <li>English (Fluent)</li>
+        <li>Telugu (Native)</li>
+        <li>Hindi (Intermediate)</li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2025 Anirudh Tirumala. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
